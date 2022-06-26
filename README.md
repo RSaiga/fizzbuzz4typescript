@@ -9,6 +9,10 @@ yarn add -D typescript @types/node
 ./node_modules/typescript/bin/tsc --init
 #### tsconfig.json mod
 ```
+  "target": "ES2019"
+  "sourceMap": true,
+  "outDir": "dist",
+
   "include": [
     "**/*.ts"
   ],
